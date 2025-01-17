@@ -1,0 +1,10 @@
+<h1>App</h1>
+
+<div>
+  {{ if .User }}
+  <a href="/profile">Profil</a>
+  {{ else }}
+  <a href="/auth/register">Registrer</a>
+  <a href="/auth/login">Logg inn</a>
+  {{ end }}
+</div>

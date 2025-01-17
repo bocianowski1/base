@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #346cee;
+  --color-white: #fcfcfc;
+  --color-offwhite: #f1f4f5;
+  --color-dark: #0d1117;
+  --color-darkgray: #121922;
+  --color-gray: #c6c2c2;
+  --color-tint: #eaeffc;
+  --color-selected: #feffe9;
+  --color-danger: #fa5053;
+  --color-darkred: #5c0f0f;
+  --color-success: #46df6c;
+  --color-darkgreen: #0f5c0f;
+  --color-lightgreen: #e1fbe6;
+  --color-lightred: #f2dede;
+  --color-warning: #f0ad4e;
+  --color-lightyellow: #fcf8e3;
+  --color-yellow: #fbf1be;
+
+  color: var(--color-dark);
+  background-color: var(--color-white);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem 0;
+}
+button,
+input {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+button {
+  background-color: #278fff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.navbar > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e0e0e0;
+}
+.navbar > nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.navbar > nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+.flash {
+  background-color: rgb(188, 95, 95);
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  height: fit-content;
+  width: fit-content;
+  max-width: 10rem;
+  min-width: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

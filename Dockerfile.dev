@@ -1,0 +1,9 @@
+FROM golang:1.22
+
+WORKDIR /app
+COPY . .
+
+RUN go install github.com/air-verse/air@v1.52.3
+RUN go mod tidy
+
+ENV ENV=development

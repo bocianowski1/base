@@ -1,0 +1,14 @@
+<header class="navbar">
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Hjem</a>
+      </li>
+      {{ if .User }}
+      <li>
+        <a href="/profile">Profil</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>
