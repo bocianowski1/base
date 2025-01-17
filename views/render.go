@@ -7,7 +7,7 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/KristianElde/butte/models"
+	"github.com/bocianowski1/base/models"
 	"github.com/gofiber/fiber/v2"
 )
 

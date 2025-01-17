@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"github.com/KristianElde/butte/models"
+	"github.com/bocianowski1/base/models"
 	"gorm.io/gorm"
 )
 

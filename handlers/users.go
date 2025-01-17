@@ -3,10 +3,11 @@ package handlers
 import (
 	"log/slog"
 
-	"github.com/KristianElde/butte/models"
-	"github.com/KristianElde/butte/services"
-	"github.com/KristianElde/butte/views"
-	"github.com/go-playground/validator/v10"
+	"github.com/bocianowski1/base/models"
+	"github.com/bocianowski1/base/services"
+	"github.com/bocianowski1/base/views"
+	"github.com/go-playground/validator"
+
 	"github.com/gofiber/fiber/v2"
 )
 

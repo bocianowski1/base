@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	"github.com/KristianElde/butte/handlers"
-	"github.com/KristianElde/butte/models"
-	"github.com/KristianElde/butte/repo"
-	"github.com/KristianElde/butte/services"
-	"github.com/KristianElde/butte/util"
-	"github.com/KristianElde/butte/views"
+	"github.com/bocianowski1/base/handlers"
+	"github.com/bocianowski1/base/models"
+	"github.com/bocianowski1/base/repo"
+	"github.com/bocianowski1/base/services"
+	"github.com/bocianowski1/base/util"
+	"github.com/bocianowski1/base/views"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/template/html/v2"

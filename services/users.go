@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/KristianElde/butte/models"
-	"github.com/KristianElde/butte/repo"
+	"github.com/bocianowski1/base/models"
+	"github.com/bocianowski1/base/repo"
 )
 
 type IUserService interface {
